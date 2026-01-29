@@ -1,0 +1,36 @@
+{
+  "description": "Sample activity data for testing Campus AI Optimizer",
+  "activities": [
+    {
+      "activityType": "study",
+      "duration": 120,
+      "location": "library",
+      "timestamp": "2026-01-28T16:22:10.940Z"
+    },
+    {
+      "activityType": "class",
+      "duration": 90,
+      "location": "classroom_a",
+      "timestamp": "2026-01-28T17:22:10.943Z"
+    },
+    {
+      "activityType": "social_media",
+      "duration": 45,
+      "location": "dorm",
+      "timestamp": "2026-01-28T18:22:10.943Z"
+    },
+    {
+      "activityType": "exercise",
+      "duration": 60,
+      "location": "gym",
+      "timestamp": "2026-01-28T19:22:10.943Z"
+    },
+    {
+      "activityType": "meal",
+      "duration": 30,
+      "location": "cafeteria",
+      "timestamp": "2026-01-28T20:22:10.943Z"
+    }
+  ],
+  "usage": "Import this data using POST /api/activities/bulk"
+}
